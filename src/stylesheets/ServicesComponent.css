@@ -1,0 +1,65 @@
+.services-header {
+    font-size: 20px;
+    font-family: 'Lato', sans-serif;
+    color: var(--dark-grey-two);
+    font-weight: 500;
+
+  }
+  .services-header  >  span {
+    font-size: 14px;
+    color: var(--teal);
+    padding-left: 10px;
+    cursor: pointer;
+    display: inline;
+
+  }
+  
+  .services-header__details{
+    color: var(--black-2);
+    font-size: 16px;
+    margin-top: -15px;
+  }
+  
+  .header-oblique{
+    font-style: oblique;
+  }
+  
+  .welcome-header__break {
+    width: 40px;
+    height: 40px;
+    background-color: var(--black-4);
+    border-radius: 50%;
+  }
+  .welcome-header__button {
+    width: 70;
+    border-radius: 4px;
+    border: solid 1px var(--black-4);
+    color: var(--teal);
+  }
+  .welcome-header__row {
+    margin-top: 15px;
+  }
+  .back-icon {
+    color: var(--teal);
+}
+.services-navigate {
+    font-family: Avenir;
+    font-weight: 500;
+    font-size: 14px;
+    color: var(--teal);
+    display: inline;
+    cursor: pointer;
+}
+.services-value {
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--dark-grey-two);
+    display: inline;
+
+}
+
+.services-name  {
+    background-color: var(--white);
+    font-size: 16px;
+    display: inline;
+}
