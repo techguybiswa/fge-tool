@@ -59,6 +59,9 @@ margin-bottom: 10px;
    .navbar-image {
        margin-left: 10px;
     }
+    .navbar-text {
+        font-size: 16px;
+    }
   }
 
   .navbar-span {
