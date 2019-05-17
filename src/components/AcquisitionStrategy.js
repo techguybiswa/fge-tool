@@ -4,7 +4,7 @@ import { Button } from 'antd';
 import '../stylesheets/AcquisitionStrategy.css';
 function AcquisitionStrategy() {
   return (
-    <div style={{padding: '50px'}}>
+    <div>
     
     <Row>
     <Col xs={24} sm={9} md={8} lg={10} >
@@ -137,7 +137,7 @@ function AcquisitionStrategy() {
 
     </Col>
   </Row>
-    
+    <br/>
     </div>
   );
 }

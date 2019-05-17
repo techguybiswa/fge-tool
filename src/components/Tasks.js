@@ -4,7 +4,7 @@ import { Button } from 'antd';
 import '../stylesheets/Tasks.css';
 function Tasks() {
   return (
-    <div style={{padding: '50px'}}>
+    <div >
     
     <Row>
     <Col xs={24} sm={9} md={8} lg={10} >
@@ -153,6 +153,7 @@ function Tasks() {
     </div>
     </Col>
     </Row>
+    <br/>
     </div>
   );
 }

@@ -76,7 +76,7 @@ function Documents() {
         },
       ];
   return (
-    <div style={{padding: '50px'}}>
+    <div>
     
     <Row>
     <Col xs={24} sm={9} md={8} lg={10} >
@@ -99,8 +99,10 @@ function Documents() {
     </Col>
   </Row>
   <br/>
-  <Table  columns={columns} dataSource={data} style={{cursor: 'pointer' , fontFamily: 'Avenir'}}/>
+<div style={{width: '100%' , overflow: 'scroll'}}>
+<Table  columns={columns} dataSource={data} style={{cursor: 'pointer' , fontFamily: 'Avenir'}}/>
 
+</div>
   {/* <Table dataSource={data}>
   <Column title="DOCUMENT" dataIndex="document" key="document" />
   <Column title="DATE UPLOADED" dataIndex="dateUploaded" key="dateUploaded" />

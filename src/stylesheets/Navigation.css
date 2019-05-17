@@ -1,0 +1,23 @@
+.ant-menu-item-selected {
+    font-family: Avenir;
+  font-size: 14px;
+  font-weight: 900;
+  letter-spacing: 0.4px;
+  color: var(--dark-grey-two) !important;
+  background-color: var(--ice-blue) !important;
+  border-bottom: solid 2px var(--teal) !important;
+
+}
+
+.ant-menu-item-active {
+    color: var(--dark-grey-two) !important;
+    background-color: var(--ice-blue) !important;
+    border-bottom: solid 2px var(--teal) !important;
+
+}
+
+.ant-menu-item {
+    padding-left: 30px;
+    padding-right: 30px;
+
+}

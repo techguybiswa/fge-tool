@@ -8,18 +8,26 @@ import AcquisitionStrategy from './components/AcquisitionStrategy';
 import Documents from './components/Documents';
 import Conversations from './components/Conversations'
 import Tasks from './components/Tasks';
-
+import Navigation from './components/Navigation';
+import Navbar from './components/Navbar';
 function App() {
   return (
-    <div className="App">
-    <WelcomeHeader/>
-    <ServicesComponent/>
-    <AcquisitionStrategy/>
-    <Tasks/>
-    <Documents/>
-    <Conversations/>
-      {/* <h1>Hello</h1> */}
-    </div>
+  <div>
+
+      <Navbar/>
+<div style={{marginLeft: '50px',marginRight: '50px', marginBottom: '50px', padding:' 0px'}}> 
+<br/>
+<WelcomeHeader/>
+<Navigation/>
+<ServicesComponent/>
+<AcquisitionStrategy/>
+<Tasks/>
+ <Documents/>
+
+
+<Conversations/>
+</div>
+  </div>
   );
 }
 

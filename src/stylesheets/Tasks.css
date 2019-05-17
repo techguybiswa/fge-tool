@@ -61,12 +61,21 @@
     color: #c2c2cc;
 }
 .task-container {
-    width: 80%;
+    width: 90%;
     height: 100%;
     background-color: var(--ice-blue);
     border-radius: 5px;
     padding: 10px;
+    margin: 10px;
 }
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    .task-container {
+        width: 100% !important;
+
+    }
+  }
 .task-content{
     background-color: white;
     min-height: 65px;

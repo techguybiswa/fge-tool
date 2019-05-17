@@ -22,6 +22,14 @@
 
 
 }
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    .conversation-left__block  {
+        height: 100% !important;
+
+    }
+  }
 .conversation-right__block {
     background-color: white;
       height: 529px;

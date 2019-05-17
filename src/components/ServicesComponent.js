@@ -4,7 +4,7 @@ import { Button } from 'antd';
 import '../stylesheets/ServicesComponent.css';
 function ServicesComponent() {
   return (
-    <div style={{padding: '50px'}}>
+    <div >
     
     <spna><Icon type="arrow-left" className="back-icon"/> <p className="services-navigate">Back to Action Tracker </p></spna>
   <div className="services-container">
@@ -21,10 +21,10 @@ function ServicesComponent() {
     </Col>
     <Col xs={24} sm={10} md={3} lg={6} >
       <Row className="welcome-header__row">
-      <Col xs={12} sm={12} md={12} lg={12} xl={12}>
+      <Col xs={24} sm={24} md={12} lg={12} xl={12}>
         <Button className="welcome-header__button">Create New PR</Button>
       </Col>
-      <Col xs={12} sm={12} md={12} lg={12} xl={12}>
+      <Col xs={24} sm={24} md={12} lg={12} xl={12}>
         <Button className="welcome-header__button"> Create RFP </Button>
       </Col>
       </Row>
@@ -45,7 +45,7 @@ function ServicesComponent() {
     </Col>
   </Row>
   </div>
-    
+    <br/>
     </div>
   );
 }

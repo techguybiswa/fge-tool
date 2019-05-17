@@ -9,7 +9,7 @@ const { Column, ColumnGroup } = Table;
 
 function Conversations() {
   return (
-    <div style={{padding: '50px'}}>
+    <div>
     
     <Row>
     <Col xs={24} sm={9} md={8} lg={10} >
