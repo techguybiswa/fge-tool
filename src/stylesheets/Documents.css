@@ -5,11 +5,6 @@
     font-weight: 500;
 
   }
-  .services-container{
-    border-radius: 10px;
-    background-color: #ebf8f7;
-    padding: 28px;
-  }
   .services-header  >  span {
     font-size: 14px;
     color: var(--teal);
@@ -41,12 +36,7 @@
     border: solid 1px var(--black-4);
     color: var(--teal);
   }
-  .welcome-header__row {
-    margin-top: 15px;
-  }
-  .back-icon {
-    color: var(--teal);
-}
+ 
 .services-navigate {
     font-family: Avenir;
     font-weight: 500;
@@ -55,16 +45,12 @@
     display: inline;
     cursor: pointer;
 }
-.services-value {
-    font-size: 14px;
-    font-weight: 500;
-    color: var(--dark-grey-two);
-    display: inline;
 
-}
 
-.services-name  {
-    background-color: var(--white);
-    font-size: 16px;
-    display: inline;
+
+.acquisition-header__button {
+    width: 100%;
+    background-color: var(--teal);
+    color: white;
+
 }

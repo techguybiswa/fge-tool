@@ -7,7 +7,8 @@ function ServicesComponent() {
     <div style={{padding: '50px'}}>
     
     <spna><Icon type="arrow-left" className="back-icon"/> <p className="services-navigate">Back to Action Tracker </p></spna>
-    <Row>
+  <div className="services-container">
+  <Row>
     <Col xs={24} sm={9} md={8} lg={10} >
     <p className="services-header">
     Data Management Services <span> <Icon type="edit" /> Edit</span>
@@ -43,6 +44,7 @@ function ServicesComponent() {
       
     </Col>
   </Row>
+  </div>
     
     </div>
   );

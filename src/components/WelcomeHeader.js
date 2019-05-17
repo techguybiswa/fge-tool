@@ -5,7 +5,7 @@ import '../stylesheets/WelcomeHeader.css';
 function WelcomeHeader() {
   return (
     <div style={{padding: '50px'}}>
-        <Row>
+    <Row>
     <Col xs={24} sm={9} md={8} lg={10} >
     <p className="welcome-header">
     Hello, Mr. David Sanders
