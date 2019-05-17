@@ -7,7 +7,7 @@ function ServicesComponent() {
     <div >
     <br/>
     
-    <spna><Icon type="arrow-left" className="back-icon"/> <p className="services-navigate">Back to Action Tracker </p></spna>
+    <span><Icon type="arrow-left" className="back-icon"/> <p className="services-navigate">Back to Action Tracker </p></span>
   <div className="services-container">
   <Row>
     <Col xs={24} sm={9} md={8} lg={10} >
