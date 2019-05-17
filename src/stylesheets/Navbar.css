@@ -50,5 +50,18 @@ border-radius: 50%;
 width: 30px;
 height: 30px;
 cursor: pointer;
+margin-bottom: 10px;
+
 
 }
+
+@media only screen and (max-width: 768px) {
+   .navbar-image {
+       margin-left: 10px;
+    }
+  }
+
+  .navbar-span {
+    padding-top: 10px;
+    padding-bottom: 15px;
+  }

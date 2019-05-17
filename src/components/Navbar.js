@@ -17,11 +17,14 @@ class Navbar extends Component {
         Washington Headquaters Services
         </p>
         </Col>
-        <Col xs={0} sm={0} md={8} lg={8}>
+        <Col xs={0} sm={0} md={7} lg={7}>
         </Col>
-        <Col xs={24} sm={5} md={7} lg={7} style={{paddingTop: '10px'}}>
+        <Col xs={24} sm={24} md={5} lg={5} style={{paddingTop: '10px' , paddingLeft: '15px'}}>
         <Icon type="search" className="icon-search"/>  &nbsp;  
          <input className="input-search" placeholder="Search Active Contract Actions"/> 
+        </Col>
+        <Col xs={24} sm={24} md={3} lg={3} className="navbar-span" >
+       
          <Icon type="plus"  className="navbar-icon" />
          <Icon type="setting" className="navbar-icon" />
          <img src="https://img1-placeit-net.s3-accelerate.amazonaws.com/uploads/stage/stage_image/34937/large_thumb_gabriel_test__26_.jpg" className="navbar-profile" />
