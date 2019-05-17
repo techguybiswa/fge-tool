@@ -92,7 +92,7 @@ function Documents() {
     <Col xs={24} sm={10} md={3} lg={6} >
       <Row className="welcome-header__row">
     
-      <Col xs={12} sm={12} md={12} lg={12} xl={12}>
+      <Col xs={24} sm={24} md={12} lg={12} xl={12}>
         <Button className="acquisition-header__button"> <Icon type="plus" /> New Document </Button>
       </Col>
       </Row>
